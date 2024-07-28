@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap-Full Stack</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="sign-in.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <!-- formulario Js -->
+    <script src="./index.js" defer></script>
+  
+  </head>
+  <header>
+  <body>
+
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol id="circle-half" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
+      </symbol>
+
+      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path
+          d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"
+        />
+        <path
+          d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"
+        />
+      </symbol>
+
+      <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path
+          d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"
+        />
+      </symbol>
+    </svg>
+                  <!-- Navbar -->
+<!--========================================================== --> 
+
+    <nav class="navbar navbar-expand-lg bg-primary py-3" data-bs-theme="dark">
+      <div class="container-fluid">
+       <h1>InternetWorld</h1> <a class="navbar-brand" href="#"></hq><img src="images/mundo-png.gif" class="d-block custom-size"></a>
+        <button class="navbar-toggler" type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#inicio">Inicio</a></li>
+          </ul>
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#perfil">Perfil</a></li>
+          </ul>
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#contacto">Contacto</a></li>
+          </ul>      
+
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item dropdown w-25" data-bs-theme="light">
+              <button
+                class="btn btn-link nav-link py-1 px-0 px-lg-2 dropdown-toggle d-flex align-items-center"
+                id="bd-theme"
+                type="button"
+                aria-expanded="false"
+                data-bs-toggle="dropdown"
+                data-bs-display="static">
+                <svg
+                  class="bi my-1 theme-icon-active"
+                  width="16"
+                  height="16"
+                  fill="currentColor">
+                  <use href="#circle-half"></use>
+                </svg>
+                <span class="d-lg-none ms-2">Cambiar tema</span>
+              </button>
+
+              <ul
+                class="dropdown-menu dropdown-menu-end px-1"
+                aria-labelledby="bd-theme">
+                <li>
+                  <button
+                    type="button"
+                    class="dropdown-item d-flex align-items-center"
+                    data-bs-theme-value="light">
+                    <svg
+                      class="bi me-2 opacity-50 theme-icon"
+                      width="16"
+                      height="16"
+                      fill="currentColor">
+                      <use href="#sun-fill"></use>
+                    </svg>
+                    Light
+                  </button>
+                </li>
+                <li>
+                  <button
+                    type="button"
+                    class="dropdown-item d-flex align-items-center"
+                    data-bs-theme-value="dark">
+                    <svg
+                      class="bi me-2 opacity-50 theme-icon"
+                      width="16"
+                      height="16"
+                      fill="currentColor">
+                      <use href="#moon-stars-fill"></use>
+                    </svg>
+                    Dark
+                  </butto>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous">
+    </script>
+                          <!-- SLIDER DE IMAGENES-->
+<!--========================================================== -->
+<section id="inicio">
+  <h2 class="text-center my-5"><span class="text-primary">Inicio<span></h2>
+<div id="carousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="3000">
+      <img src="images/image1.webp" class="d-block w-100" alt="">
+    </div>
+    
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="images/image2.webp" class="d-block w-100" alt="...">
+    </div>
+
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="images/image5.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carousel"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+
+                    <!-- Tarjeta de perfil -->                   
+<!--========================================================== --> 
+  
+<section class="perfil" id="perfil">
+  <div class="container">
+          <h1 class="text-center my-5"><span class="text-primary">Perfil<span></h2>      
+          <div class="box-container">        
+              <div class="box">
+                  <img src="images/diego-1.jpg" alt="">
+                  <h3>Diego Alves</h3>
+                  <p>Estudiante Full Stack Developer.</p>    
+                  <p class="card-text"><strong>Email:</strong>diegoalves@gmail.com</p>
+                  <p class="card-text"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/diegoalves" target="_blank">Diego</a></p>
+                  <a href="#" class="btn btn-primary">Ver más</a>
+              </div>
+      
+              <div class="box">
+                  <img src="images/helena-2.jpg" alt="">
+                  <h3>Margarita Fernández</h3>
+                  <p>Estudiante Full Stack Developer.</p>
+                  <p class="card-text"><strong>Email:</strong>helenaxpink@gmail.com</p>
+                  <p class="card-text"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/margarita-fernandez-6b367b2b2/" target="_blank">Margarita</a></p>
+                  <a href="#" class="btn btn-primary">Ver más</a>
+              </div>
+      
+              <div class="box">
+                  <img src="images/pablo-3.jpg" alt="">
+                  <h3>Pablo Estevez</h3>
+                  <p>Estudiante Full Stack Developer.</p>
+                  <p class="card-text"><strong>Email:</strong>pablo2018o@gmail.com</p>
+                  <p class="card-text"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/pablo2018otarget="target="_blank">Pablo</a></p>
+                  <a href="#" class="btn btn-primary">Ver más</a>
+              </div> 
+  </section>
+    
+                    <!-- Formulario de Contacto -->
+<!--========================================================== -->
+<section id="contacto" class="container mt-5">
+  <h2 class="text-center my-5"><span class="text-primary">Contacto<span></h2> 
+    <form id="contactForm">  
+        <div><img src="images/fullstack-gif.gif" alt="" class="card-img-top"></div>
+
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" class="form-control" id="nombre" name="nombre" required>
+      </div>
+
+      <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+            <label for="comentario">Comentario</label>
+            <input type="comentario" class="form-control" id="comentario" name="comentario" required>
+          
+          </div>            
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</section>
+   
+                        <!--FOOTER-->
+<!--========================================================== -->
+
+<footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+  <p class="fs-5 px-3  pt-3">CILSA. &copy; Full Stack Developer 2024</p>
+  <div id="iconos" >
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-twitter"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a>  
+  </div>
+
+</footer>
+</header>  
+  </body>
+</html>

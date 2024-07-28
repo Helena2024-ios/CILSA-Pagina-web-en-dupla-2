@@ -1,0 +1,68 @@
+.section{
+    border-radius: 5px;
+    margin: 64px 0;
+    margin-top: 5vh;
+    padding: 15px;
+  }
+ /*=======================Formulario de Contacto======================*/
+    .btn-primary:hover {
+      background-color: #23527c;
+    } 
+   
+    form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(28, 202, 202, 0.883);
+  }
+  
+  /* Style the form groups */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the labels */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style the input fields and textarea */
+  .form-control {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #fff;
+  }
+  
+  /* Style the submit button */
+  .btn-primary {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 100px 200px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /*=========================FOOTER================================*/
+      
+    footer {
+      background: #2246f6;
+      min-height: 100px;;
+    }
+    footer p{
+      color:#f3f3f3;
+      text-align:center;
+    }
+    #iconos  i {
+      font-size: 26px;
+      padding: 0 8px;
+      color:#f3f3f3;
+    }
+    .custom-size {
+      width: 75px;
+      height: 75px;
+  }
